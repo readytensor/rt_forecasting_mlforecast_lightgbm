@@ -17,13 +17,13 @@ PREDICTOR_FILE_NAME = "predictor.joblib"
 
 
 class Forecaster:
-    """A wrapper class for the Voting Forecaster.
+    """A wrapper class for the LightGBM Forecaster.
 
     This class provides a consistent interface that can be used with other
     Forecaster models.
     """
 
-    model_name = "Voting Forecaster"
+    model_name = "LightGBM Forecaster"
 
     def __init__(
         self,
@@ -41,7 +41,7 @@ class Forecaster:
         random_state: int = 0,
         **kwargs,
     ):
-        """Construct a new Voting Forecaster
+        """Construct a new LightGBM Forecaster
 
         Args:
 
