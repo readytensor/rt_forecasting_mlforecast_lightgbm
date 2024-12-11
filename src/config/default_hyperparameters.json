@@ -1,14 +1,13 @@
 {
-  "history_forecast_ratio": 10,
+  "history_forecast_ratio": 15,
   "lags_forecast_ratio": 3,
   "n_estimators": 100,
-  "num_leaves": 10,
-  "max_depth": 15,
-  "learning_rate": 0.4,
-  "min_child_samples": 3,
+  "num_leaves": 31,
+  "max_depth": -1,
+  "learning_rate": 0.1,
+  "min_child_samples": 20,
   "reg_alpha": 0,
   "reg_lambda": 0,
   "use_exogenous": true,
   "random_state": 0
-  
 }
